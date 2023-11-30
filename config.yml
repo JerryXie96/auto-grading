@@ -1,0 +1,5 @@
+std_answers:
+  file: 'test/answers.csv'
+  delimiter: ';'
+  answer_prefix: 'answer'
+  id_prefix: 'id'
