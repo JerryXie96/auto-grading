@@ -3,3 +3,7 @@ std_answers:
   delimiter: ';'
   answer_prefix: 'answer'
   id_prefix: 'id'
+
+correct_answers:
+  file: 'test/correct_answers.csv'
+  delimiter: ','
