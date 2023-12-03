@@ -1,4 +1,5 @@
 venv
 test
+__pycache__
 
 config.yaml

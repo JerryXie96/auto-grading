@@ -1,9 +1,21 @@
-std_answers:
+stu_answers:
   file: 'test/answers.csv'
-  delimiter: ';'
+  delimiter: ','
   answer_prefix: 'answer'
   id_prefix: 'id'
 
-correct_answers:
+correct_ans:
   file: 'test/correct_answers.csv'
   delimiter: ','
+
+failed_stu:
+  file: 'test/failed_students.csv'
+
+scan_img:
+  path: 'images'
+  extension: '.jpg'
+  need_rename: False
+  
+outputs:
+  marks: 'marks.csv'
+  ans_table: 'ans_table.csv'
